@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicios de nutrición profesional: consulta nutricional, planes de alimentación personalizados, nutrición deportiva y control metabólico." />
+  <title>Servicios · Gabriela Toledo · Nutricionista</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nombre">Gabriela Toledo</span>
+        <span class="titulo">Nutricionista Profesional</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre mí</a></li>
+        <li><a href="servicios.html" class="activo">Servicios</a></li>
+        <li><a href="contacto.html" class="nav-cta">Agendar consulta</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ===== HERO SERVICIOS ===== -->
+  <section class="servicios-hero">
+    <div class="contenedor">
+      <span class="subtag animar">¿En qué puedo ayudarte?</span>
+      <h1 class="animar animar-delay-1">Servicios diseñados<br/><em style="font-style:italic; color:var(--verde-medio);">para cada etapa de tu vida</em></h1>
+      <p class="animar animar-delay-2">Desde tu primera consulta hasta un acompañamiento continuo. Cada servicio está pensado para adaptarse a tus metas, tu cuerpo y tu ritmo de vida.</p>
+    </div>
+  </section>
+
+
+  <!-- ===== CARDS DE SERVICIOS ===== -->
+  <section class="seccion" style="background: var(--blanco);">
+    <div class="contenedor">
+
+      <div class="servicios-grid">
+
+        <!-- Servicio 1: Consulta Inicial -->
+        <div class="servicio-card animar animar-delay-1">
+          <div class="servicio-card-header">
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-clipboard-list"></i>
+            </div>
+            <h3>Consulta Nutricional Inicial</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Una evaluación completa y personalizada que marca el punto de partida de tu proceso. Escucho tu historia, analizo tus hábitos y diseñamos juntos el camino a seguir.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Evaluación nutricional y antropométrica completa</li>
+              <li><i class="fa-solid fa-circle-check"></i> Análisis de hábitos alimentarios actuales</li>
+              <li><i class="fa-solid fa-circle-check"></i> Revisión de antecedentes de salud y exámenes</li>
+              <li><i class="fa-solid fa-circle-check"></i> Definición de metas y objetivos realistas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Duración: 60–75 minutos</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicio 2: Plan de Alimentación (DESTACADO) -->
+        <div class="servicio-card destacado animar animar-delay-2">
+          <div class="servicio-card-header">
+            <span class="badge-popular">Más solicitado</span>
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h3>Plan de Alimentación Personalizado</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Un plan nutricional diseñado exclusivamente para ti, con menús semanales, recetas prácticas y guías de porciones que se adaptan a tu vida cotidiana.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Menú semanal detallado y flexible</li>
+              <li><i class="fa-solid fa-circle-check"></i> Lista de compras organizada</li>
+              <li><i class="fa-solid fa-circle-check"></i> Recetas simples y nutritivas</li>
+              <li><i class="fa-solid fa-circle-check"></i> Guía de porciones visuales</li>
+              <li><i class="fa-solid fa-circle-check"></i> Ajustes según preferencias y restricciones</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicio 3: Seguimiento Nutricional -->
+        <div class="servicio-card animar animar-delay-3">
+          <div class="servicio-card-header">
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h3>Seguimiento y Control Nutricional</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Consultas de seguimiento para evaluar tu progreso, ajustar tu plan y resolver dudas. El acompañamiento continuo es clave para lograr resultados duraderos.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Evaluación de progreso y evolución</li>
+              <li><i class="fa-solid fa-circle-check"></i> Ajuste del plan según resultados</li>
+              <li><i class="fa-solid fa-circle-check"></i> Resolución de dudas y obstáculos</li>
+              <li><i class="fa-solid fa-circle-check"></i> Motivación y refuerzo positivo</li>
+              <li><i class="fa-solid fa-circle-check"></i> Duración: 45 minutos</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicio 4: Nutrición Deportiva -->
+        <div class="servicio-card animar animar-delay-1">
+          <div class="servicio-card-header">
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-dumbbell"></i>
+            </div>
+            <h3>Nutrición Deportiva</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Planes nutricionales específicos para deportistas y personas activas que buscan optimizar su rendimiento, recuperación y composición corporal.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Análisis de composición corporal deportiva</li>
+              <li><i class="fa-solid fa-circle-check"></i> Nutrición pre y post entrenamiento</li>
+              <li><i class="fa-solid fa-circle-check"></i> Estrategias de hidratación</li>
+              <li><i class="fa-solid fa-circle-check"></i> Suplementación basada en evidencia</li>
+              <li><i class="fa-solid fa-circle-check"></i> Periodización nutricional</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicio 5: Control Metabólico -->
+        <div class="servicio-card animar animar-delay-2">
+          <div class="servicio-card-header">
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+            <h3>Control de Enfermedades Metabólicas</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Apoyo nutricional especializado para pacientes con diabetes tipo 2, hipertensión, dislipidemia, hígado graso y otras condiciones metabólicas.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Manejo nutricional de diabetes tipo 2</li>
+              <li><i class="fa-solid fa-circle-check"></i> Control de presión arterial y colesterol</li>
+              <li><i class="fa-solid fa-circle-check"></i> Nutrición en síndrome metabólico</li>
+              <li><i class="fa-solid fa-circle-check"></i> Coordinación con médico tratante</li>
+              <li><i class="fa-solid fa-circle-check"></i> Educación nutricional continua</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicio 6: Nutrición Online -->
+        <div class="servicio-card animar animar-delay-3">
+          <div class="servicio-card-header">
+            <div class="servicio-icono-grande">
+              <i class="fa-solid fa-laptop"></i>
+            </div>
+            <h3>Consulta Nutricional Online</h3>
+          </div>
+          <div class="servicio-card-body">
+            <p>Todos mis servicios disponibles en formato 100% remoto para que puedas cuidar tu salud desde cualquier lugar, sin barreras de distancia ni tiempo.</p>
+            <ul class="servicio-beneficios">
+              <li><i class="fa-solid fa-circle-check"></i> Consulta por videollamada (Zoom / Meet)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Envío de plan nutricional digital</li>
+              <li><i class="fa-solid fa-circle-check"></i> Soporte por WhatsApp entre sesiones</li>
+              <li><i class="fa-solid fa-circle-check"></i> Disponible para todo Chile y el extranjero</li>
+              <li><i class="fa-solid fa-circle-check"></i> Flexibilidad de horarios</li>
+            </ul>
+          </div>
+          <div class="servicio-card-footer">
+            <a href="contacto.html">
+              Agendar este servicio <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== FAQ ===== -->
+  <section class="seccion faq-seccion">
+    <div class="contenedor">
+
+      <div class="encabezado-seccion animar">
+        <span class="subtag">Preguntas frecuentes</span>
+        <h2>Todo lo que necesitas saber</h2>
+        <p>Resuelvo las dudas más comunes antes de tu primera consulta.</p>
+      </div>
+
+      <div class="faq-grid">
+
+        <div class="faq-item animar animar-delay-1">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Cuánto dura la primera consulta?</h4>
+          <p>La consulta inicial tiene una duración de entre 60 y 75 minutos. Es el tiempo necesario para hacer una evaluación completa y conocer tu historia en profundidad.</p>
+        </div>
+
+        <div class="faq-item animar animar-delay-2">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Qué debo llevar a la consulta?</h4>
+          <p>Si tienes exámenes de sangre recientes (últimos 6 meses), es ideal traerlos. También puedes anotar tus medicamentos actuales y cualquier diagnóstico médico previo.</p>
+        </div>
+
+        <div class="faq-item animar animar-delay-3">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Las consultas online son igual de efectivas?</h4>
+          <p>Sí. Las consultas online tienen la misma calidad que las presenciales. Puedo realizar la evaluación completa de forma remota y entregarte el plan por medios digitales.</p>
+        </div>
+
+        <div class="faq-item animar animar-delay-4">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Con qué frecuencia debo asistir?</h4>
+          <p>Generalmente recomiendo controles cada 2 a 4 semanas durante las primeras etapas. Luego el seguimiento se puede espaciar según tu progreso y necesidades.</p>
+        </div>
+
+        <div class="faq-item animar animar-delay-1">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Trabajas con algún tipo de dieta específica?</h4>
+          <p>No sigo protocolos rígidos. Mi enfoque es flexible y personalizado. Respeto preferencias alimentarias, restricciones culturales, religiosas o médicas de cada paciente.</p>
+        </div>
+
+        <div class="faq-item animar animar-delay-2">
+          <h4><i class="fa-solid fa-circle-question"></i> ¿Puedo agendar para mi hijo/a?</h4>
+          <p>Sí, tengo formación en nutrición pediátrica y adolescente. Puedo atender niños y adolescentes con un enfoque especial adaptado a su etapa de crecimiento.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-banner">
+    <div class="contenedor">
+      <h2>¿No sabes cuál servicio es para ti?</h2>
+      <p>Escríbeme y con gusto te oriento sobre el mejor punto de partida para tu caso.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="contacto.html" class="btn btn-primario btn-grande">
+          <i class="fa-regular fa-calendar"></i>
+          Contáctame
+        </a>
+        <a href="https://wa.me/56912345678?text=Hola%20Gabriela%2C%20quiero%20saber%20qué%20servicio%20me%20conviene" target="_blank" rel="noopener" class="btn btn-whatsapp btn-grande">
+          <i class="fa-brands fa-whatsapp"></i>
+          Consultar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="nombre-footer">Gabriela A. Toledo Aguilar</span>
+        <span class="titulo-footer">Nutricionista · Dietista</span>
+        <p>Acompañándote hacia una alimentación consciente y una vida más saludable, con ciencia y mucho cuidado.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/56912345678" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre.html">Sobre mí</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="servicios.html">Consulta nutricional</a></li>
+          <li><a href="servicios.html">Plan de alimentación</a></li>
+          <li><a href="servicios.html">Nutrición deportiva</a></li>
+          <li><a href="servicios.html">Control metabólico</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i>+56 9 1234 5678</li>
+          <li><i class="fa-solid fa-envelope"></i>gabriela@nutricionista.cl</li>
+          <li><i class="fa-solid fa-location-dot"></i>Santiago, Chile</li>
+          <li><i class="fa-solid fa-clock"></i>Lun–Vie: 9:00–18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Gabriela Andrea Toledo Aguilar · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
