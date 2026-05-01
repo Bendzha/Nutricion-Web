@@ -32,6 +32,35 @@
       </button>
     </div>
   </nav>
+  <!-- ===== OVERLAY MENÚ MÓVIL ===== -->
+  <div class="nav-overlay" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+    <div class="overlay-panel">
+      <div class="overlay-header">
+        <div class="overlay-logo">
+          <span class="nombre">Gabriela Toledo</span>
+          <span class="titulo">Nutricionista Profesional</span>
+        </div>
+        <button class="nav-close" aria-label="Cerrar menú">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <nav class="overlay-links">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+        <a href="sobre.html"><i class="fa-solid fa-user"></i> Sobre mí</a>
+        <a href="servicios.html"><i class="fa-solid fa-leaf"></i> Servicios</a>
+        <a href="contacto.html" class="overlay-cta"><i class="fa-regular fa-calendar"></i> Agendar consulta</a>
+      </nav>
+
+      <div class="overlay-footer">
+        <div class="overlay-contacto">
+          <a href="tel:+56935197971"><i class="fa-solid fa-phone"></i> +56 9 3519 7971</a>
+          <a href="https://www.instagram.com/nutrigaby.cl?igsh=b2NwOWpkZ2J2ZXc2" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> @nutrigaby.cl</a>
+          <a href="https://wa.me/56935197971" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- ===== HERO CONTACTO ===== -->
@@ -62,7 +91,7 @@
               </div>
               <div class="info-texto">
                 <strong>Teléfono / WhatsApp</strong>
-                <p>+56 9 1234 5678</p>
+                <p>+56 9 3519 7971</p>
               </div>
             </div>
 
@@ -82,7 +111,7 @@
               </div>
               <div class="info-texto">
                 <strong>Dirección del consultorio</strong>
-                <p>Av. Providencia 1234, Of. 502<br/>Providencia, Santiago, Chile</p>
+                <p>Lago Risopatrón 4710<br/>Santiago, Chile</p>
               </div>
             </div>
 
@@ -109,7 +138,7 @@
           </div>
 
           <!-- WhatsApp destacado -->
-          <a href="https://wa.me/56912345678?text=Hola%20Gabriela%2C%20quiero%20agendar%20una%20consulta%20nutricional" target="_blank" rel="noopener" class="whatsapp-cta">
+          <a href="https://wa.me/56935197971?text=Hola%20Gabriela%2C%20quiero%20agendar%20una%20consulta%20nutricional" target="_blank" rel="noopener" class="whatsapp-cta">
             <i class="fa-brands fa-whatsapp"></i>
             <div class="whatsapp-cta-texto">
               <strong>¡Escríbeme directo por WhatsApp!</strong>
@@ -125,9 +154,8 @@
           <div style="margin-top: 2rem;">
             <p style="font-size:0.82rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--gris-suave); margin-bottom:1rem;">Sígueme en redes</p>
             <div style="display:flex; gap:0.75rem;">
-              <a href="#" aria-label="Instagram" style="width:42px;height:42px;border-radius:12px;background:var(--verde-mint);border:1px solid var(--verde-palido);display:flex;align-items:center;justify-content:center;color:var(--verde-medio);font-size:1.1rem;transition:var(--transicion);"
-                 onmouseover="this.style.background='var(--verde-medio)';this.style.color='white';"
-                 onmouseout="this.style.background='var(--verde-mint)';this.style.color='var(--verde-medio)';">
+              <a href="https://www.instagram.com/nutrigaby.cl?igsh=b2NwOWpkZ2J2ZXc2" target="_blank" rel="noopener" aria-label="Instagram"
+                 onmouseover="this.style.background='var(--verde-medio)';this.style.color='white';" onmouseout="this.style.background='var(--verde-mint)';this.style.color='var(--verde-medio)';">
                 <i class="fa-brands fa-instagram"></i>
               </a>
               <a href="#" aria-label="Facebook" style="width:42px;height:42px;border-radius:12px;background:var(--verde-mint);border:1px solid var(--verde-palido);display:flex;align-items:center;justify-content:center;color:var(--verde-medio);font-size:1.1rem;transition:var(--transicion);"
@@ -135,9 +163,8 @@
                  onmouseout="this.style.background='var(--verde-mint)';this.style.color='var(--verde-medio)';">
                 <i class="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="#" aria-label="LinkedIn" style="width:42px;height:42px;border-radius:12px;background:var(--verde-mint);border:1px solid var(--verde-palido);display:flex;align-items:center;justify-content:center;color:var(--verde-medio);font-size:1.1rem;transition:var(--transicion);"
-                 onmouseover="this.style.background='var(--verde-medio)';this.style.color='white';"
-                 onmouseout="this.style.background='var(--verde-mint)';this.style.color='var(--verde-medio)';">
+              <a href="https://www.linkedin.com/in/gabriela-andrea-toledo-aguilar-91962491/" target="_blank" rel="noopener" aria-label="LinkedIn"
+                 onmouseover="this.style.background='var(--verde-medio)';this.style.color='white';" onmouseout="this.style.background='var(--verde-mint)';this.style.color='var(--verde-medio)';">
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
             </div>
@@ -249,10 +276,10 @@
             <i class="fa-solid fa-location-dot"></i>
           </div>
           <div style="text-align:center;">
-            <p style="font-family:var(--fuente-titulo);font-size:1.1rem;font-weight:600;color:var(--verde-oscuro);">Av. Providencia 1234, Of. 502</p>
-            <p style="font-size:0.9rem;color:var(--gris-suave);">Providencia, Santiago, Chile</p>
+            <p style="font-family:var(--fuente-titulo);font-size:1.1rem;font-weight:600;color:var(--verde-oscuro);">Lago Risopatrón 4710</p>
+            <p style="font-size:0.9rem;color:var(--gris-suave);">Santiago, Chile</p>
           </div>
-          <a href="https://maps.google.com/?q=Providencia+Santiago+Chile" target="_blank" rel="noopener" class="btn btn-primario" style="margin-top:0.5rem;">
+          <a href="https://maps.app.goo.gl/UFCev2HjoRh1nxDH9" target="_blank" rel="noopener" class="btn btn-primario" style="margin-top:0.5rem;">
             <i class="fa-solid fa-map"></i>
             Ver en Google Maps
           </a>
@@ -278,10 +305,10 @@
         <span class="titulo-footer">Nutricionista · Dietista</span>
         <p>Acompañándote hacia una alimentación consciente y una vida más saludable, con ciencia y mucho cuidado.</p>
         <div class="footer-social">
-          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/nutrigaby.cl?igsh=b2NwOWpkZ2J2ZXc2" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://wa.me/56912345678" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/gabriela-andrea-toledo-aguilar-91962491/" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/56935197971?text=Hola%20Gabriela%2C%20quiero%20agendar%20una%20consulta%20nutricional" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
       <div class="footer-col">
@@ -305,7 +332,7 @@
       <div class="footer-col">
         <h4>Contacto</h4>
         <ul>
-          <li><i class="fa-solid fa-phone"></i>+56 9 1234 5678</li>
+          <li><i class="fa-solid fa-phone"></i>+56 9 3519 7971</li>
           <li><i class="fa-solid fa-envelope"></i>gabriela@nutricionista.cl</li>
           <li><i class="fa-solid fa-location-dot"></i>Santiago, Chile</li>
           <li><i class="fa-solid fa-clock"></i>Lun–Vie: 9:00–18:00</li>
