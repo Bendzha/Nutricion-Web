@@ -75,7 +75,7 @@ ul { list-style: none; }
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 1060;
   background: rgba(250, 247, 240, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -210,19 +210,25 @@ ul { list-style: none; }
    OVERLAY MENÚ MÓVIL
    ============================================= */
 .nav-overlay {
-  display: none;
+  /* Siempre en el DOM, ocultado con visibility+pointer-events para permitir transiciones */
   position: fixed;
   inset: 0;
-  z-index: 1050;
+  z-index: 1055; /* Encima del contenido, debajo del navbar (1060) */
   background: rgba(45, 80, 22, 0.15);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  /* Oculto en desktop: solo visible en móvil */
+  display: none;
 }
 
 .nav-overlay.abierto {
   opacity: 1;
+  visibility: visible;
+  pointer-events: all;
 }
 
 .overlay-panel {
@@ -1933,9 +1939,9 @@ select {
     display: none !important; /* Se reemplaza por overlay */
   }
 
-  /* Mostrar overlay */
+  /* Mostrar overlay (ya tiene visibility:hidden y pointer-events:none por defecto) */
   .nav-overlay {
-    display: block;
+    display: block; /* activar en móvil; visibility+pointer-events controlan la interacción */
   }
 
   /* Ajustes generales de sección */
